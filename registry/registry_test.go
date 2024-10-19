@@ -51,7 +51,7 @@ func TestNewDefaultSCRegistry(t *testing.T) {
 	assert.NotNil(t, got)
 }
 
-//  test registry a service
+// test registry a service
 func TestSCRegistryRegister(t *testing.T) {
 	client, err := getSCClient()
 	if err != nil {
