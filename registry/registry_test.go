@@ -16,6 +16,7 @@ package registry
 
 import (
 	"github.com/cloudwego/kitex/pkg/registry"
+	"github.com/go-chassis/sc-client"
 	"github.com/stretchr/testify/assert"
 	"net"
 	"testing"
