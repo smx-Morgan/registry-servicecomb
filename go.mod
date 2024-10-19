@@ -15,7 +15,7 @@ require (
 	github.com/bytedance/gopkg v0.1.1 // indirect
 	github.com/bytedance/sonic v1.12.2 // indirect
 	github.com/bytedance/sonic/loader v0.2.0 // indirect
-	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
+	github.com/cenkalti/backoff v2.0.0+incompatible // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
 	github.com/cloudwego/configmanager v0.2.2 // indirect
 	github.com/cloudwego/dynamicgo v0.4.0 // indirect
@@ -28,7 +28,6 @@ require (
 	github.com/cloudwego/runtimex v0.1.0 // indirect
 	github.com/cloudwego/thriftgo v0.3.17 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
-	github.com/deckarep/golang-set v1.7.1 // indirect
 	github.com/fatih/structtag v1.2.0 // indirect
 	github.com/go-chassis/cari v0.9.0 // indirect
 	github.com/go-chassis/foundation v0.4.0 // indirect
@@ -40,12 +39,10 @@ require (
 	github.com/iancoleman/strcase v0.2.0 // indirect
 	github.com/jhump/protoreflect v1.8.2 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/karlseguin/ccache/v2 v2.0.8 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.4 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/gls v0.0.0-20220109145502-612d0167dce5 // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/thoas/go-funk v0.9.3 // indirect
 	github.com/tidwall/gjson v1.17.3 // indirect
@@ -66,3 +63,5 @@ require (
 replace github.com/cloudwego-contrib/cwgo-pkg/registry/servicecomb => github.com/smx-Morgan/cwgo-pkg/registry/servicecomb v0.0.0-20241016000926-d56ef7e0f578
 
 replace github.com/apache/thrift => github.com/apache/thrift v0.13.0
+
+replace github.com/go-chassis/sc-client v0.7.1-0.20220829010936-e0ff6c891c04 => github.com/go-chassis/sc-client v0.6.0
